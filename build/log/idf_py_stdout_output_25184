@@ -1,0 +1,296 @@
+[0/1] Re-running CMake...
+-- ccache will be used for faster recompilation
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file C:/Espressif/projects_esp_fayyaz/motor_driver/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- App "motor_driver" version: 1
+-- Adding linker script C:/Espressif/projects_esp_fayyaz/motor_driver/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/Espressif/projects_esp_fayyaz/motor_driver/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4.1/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_cam esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_isp esp_driver_jpeg esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_ppa esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_touch_sens esp_driver_tsens esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_security esp_system esp_timer esp_vfs_console esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread rt sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: C:/Espressif/frameworks/esp-idf-v5.4.1/components/app_trace C:/Espressif/frameworks/esp-idf-v5.4.1/components/app_update C:/Espressif/frameworks/esp-idf-v5.4.1/components/bootloader C:/Espressif/frameworks/esp-idf-v5.4.1/components/bootloader_support C:/Espressif/frameworks/esp-idf-v5.4.1/components/bt C:/Espressif/frameworks/esp-idf-v5.4.1/components/cmock C:/Espressif/frameworks/esp-idf-v5.4.1/components/console C:/Espressif/frameworks/esp-idf-v5.4.1/components/cxx C:/Espressif/frameworks/esp-idf-v5.4.1/components/driver C:/Espressif/frameworks/esp-idf-v5.4.1/components/efuse C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp-tls C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_adc C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_app_format C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_bootloader_format C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_coex C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_common C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_ana_cmpr C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_cam C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_dac C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gpio C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gptimer C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_i2c C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_i2s C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_isp C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_jpeg C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_ledc C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_parlio C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_pcnt C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_ppa C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_rmt C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_sdio C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_sdm C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_sdmmc C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_sdspi C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_spi C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_touch_sens C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_tsens C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_uart C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_usb_serial_jtag C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_eth C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_event C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_gdbstub C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hid C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_http_client C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_http_server C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_https_ota C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_https_server C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_lcd C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_local_ctrl C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_mm C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_netif C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_netif_stack C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_partition C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_phy C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_pm C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_psram C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_ringbuf C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_security C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_timer C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_vfs_console C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_wifi C:/Espressif/frameworks/esp-idf-v5.4.1/components/espcoredump C:/Espressif/frameworks/esp-idf-v5.4.1/components/esptool_py C:/Espressif/frameworks/esp-idf-v5.4.1/components/fatfs C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos C:/Espressif/frameworks/esp-idf-v5.4.1/components/hal C:/Espressif/frameworks/esp-idf-v5.4.1/components/heap C:/Espressif/frameworks/esp-idf-v5.4.1/components/http_parser C:/Espressif/frameworks/esp-idf-v5.4.1/components/idf_test C:/Espressif/frameworks/esp-idf-v5.4.1/components/ieee802154 C:/Espressif/frameworks/esp-idf-v5.4.1/components/json C:/Espressif/frameworks/esp-idf-v5.4.1/components/log C:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip C:/Espressif/projects_esp_fayyaz/motor_driver/main C:/Espressif/frameworks/esp-idf-v5.4.1/components/mbedtls C:/Espressif/frameworks/esp-idf-v5.4.1/components/mqtt C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib C:/Espressif/frameworks/esp-idf-v5.4.1/components/nvs_flash C:/Espressif/frameworks/esp-idf-v5.4.1/components/nvs_sec_provider C:/Espressif/frameworks/esp-idf-v5.4.1/components/openthread C:/Espressif/frameworks/esp-idf-v5.4.1/components/partition_table C:/Espressif/frameworks/esp-idf-v5.4.1/components/perfmon C:/Espressif/frameworks/esp-idf-v5.4.1/components/protobuf-c C:/Espressif/frameworks/esp-idf-v5.4.1/components/protocomm C:/Espressif/frameworks/esp-idf-v5.4.1/components/pthread C:/Espressif/frameworks/esp-idf-v5.4.1/components/rt C:/Espressif/frameworks/esp-idf-v5.4.1/components/sdmmc C:/Espressif/frameworks/esp-idf-v5.4.1/components/soc C:/Espressif/frameworks/esp-idf-v5.4.1/components/spi_flash C:/Espressif/frameworks/esp-idf-v5.4.1/components/spiffs C:/Espressif/frameworks/esp-idf-v5.4.1/components/tcp_transport C:/Espressif/frameworks/esp-idf-v5.4.1/components/ulp C:/Espressif/frameworks/esp-idf-v5.4.1/components/unity C:/Espressif/frameworks/esp-idf-v5.4.1/components/usb C:/Espressif/frameworks/esp-idf-v5.4.1/components/vfs C:/Espressif/frameworks/esp-idf-v5.4.1/components/wear_levelling C:/Espressif/frameworks/esp-idf-v5.4.1/components/wifi_provisioning C:/Espressif/frameworks/esp-idf-v5.4.1/components/wpa_supplicant C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa
+-- Configuring done (23.1s)
+-- Generating done (6.0s)
+-- Build files have been written to: C:/Espressif/projects_esp_fayyaz/motor_driver/build
+[1/12] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj 
+ccache C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe -DESP_PLATFORM -DIDF_VER=\"v5.4.1\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -IC:/Espressif/projects_esp_fayyaz/motor_driver/build/config -IC:/Espressif/projects_esp_fayyaz/motor_driver/main -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/platform_include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/config/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/config/include/freertos -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/config/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/esp_additions/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/include/soc -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/include/soc/esp32 -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/dma/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/ldo/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/debug_probe/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/port/esp32/. -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/port/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/heap/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/heap/tlsf -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/log/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/soc/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/soc/esp32 -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/soc/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/soc/esp32/register -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/hal/platform_port/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/hal/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/hal/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom/esp32/include/esp32 -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom/esp32 -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_common/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/include/private -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/deprecated_include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip/include/apps -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip/include/apps/sntp -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip/lwip/src/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip/port/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip/port/freertos/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip/port/esp32xx/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip/port/esp32xx/include/arch -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip/port/esp32xx/include/sys -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/driver/deprecated -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/driver/i2c/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/driver/touch_sensor/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/driver/twai/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/driver/touch_sensor/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_pm/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_ringbuf/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gpio/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_pcnt/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gptimer/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_spi/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_ana_cmpr/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_i2s/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_sdmmc/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/sdmmc/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_sdspi/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_sdio/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_dac/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_rmt/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_tsens/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_sdm/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_i2c/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_uart/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/vfs/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_ledc/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_parlio/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_usb_serial_jtag/include -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-error=extra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=C:/Espressif/projects_esp_fayyaz/motor_driver=. -fmacro-prefix-map=C:/Espressif/frameworks/esp-idf-v5.4.1=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -MF esp-idf\main\CMakeFiles\__idf_main.dir\main.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -c C:/Espressif/projects_esp_fayyaz/motor_driver/main/main.c
+In file included from C:/Espressif/frameworks/esp-idf-v5.4.1/components/driver/deprecated/driver/mcpwm.h:12,
+                 from C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.h:15,
+                 from C:/Espressif/projects_esp_fayyaz/motor_driver/main/main.c:17:
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/driver/deprecated/driver/mcpwm_types_legacy.h:286:3: error: conflicting types for 'mcpwm_carrier_config_t'; have 'struct <anonymous>'
+  286 | } mcpwm_carrier_config_t;
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_prelude.h:15,
+                 from C:/Espressif/projects_esp_fayyaz/motor_driver/main/main.c:12:
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_oper.h:148:3: note: previous declaration of 'mcpwm_carrier_config_t' with type 'mcpwm_carrier_config_t'
+  148 | } mcpwm_carrier_config_t;
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/driver/deprecated/driver/mcpwm.h:15:2: warning: #warning "legacy MCPWM driver is deprecated, please migrate to the new driver (include driver/mcpwm_prelude.h)" [-Wcpp]
+   15 | #warning "legacy MCPWM driver is deprecated, please migrate to the new driver (include driver/mcpwm_prelude.h)"
+      |  ^~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/main.c: In function 'app_main':
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/main.c:38:9: error: implicit declaration of function 'vTaskDelay' [-Wimplicit-function-declaration]
+   38 |         vTaskDelay(pdMS_TO_TICKS(1000));
+      |         ^~~~~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/main.c:38:20: error: implicit declaration of function 'pdMS_TO_TICKS' [-Wimplicit-function-declaration]
+   38 |         vTaskDelay(pdMS_TO_TICKS(1000));
+      |                    ^~~~~~~~~~~~~
+[2/12] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_driver.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_driver.c.obj 
+ccache C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe -DESP_PLATFORM -DIDF_VER=\"v5.4.1\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -IC:/Espressif/projects_esp_fayyaz/motor_driver/build/config -IC:/Espressif/projects_esp_fayyaz/motor_driver/main -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib/platform_include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/config/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/config/include/freertos -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/config/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos/esp_additions/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/include/soc -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/include/soc/esp32 -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/dma/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/ldo/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/debug_probe/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/port/esp32/. -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support/port/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/heap/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/heap/tlsf -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/log/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/soc/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/soc/esp32 -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/soc/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/soc/esp32/register -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/hal/platform_port/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/hal/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/hal/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom/esp32/include/esp32 -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom/esp32 -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_common/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/soc -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system/port/include/private -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa/deprecated_include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip/include/apps -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip/include/apps/sntp -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip/lwip/src/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip/port/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip/port/freertos/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip/port/esp32xx/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip/port/esp32xx/include/arch -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/lwip/port/esp32xx/include/sys -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/driver/deprecated -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/driver/i2c/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/driver/touch_sensor/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/driver/twai/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/driver/touch_sensor/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_pm/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_ringbuf/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gpio/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_pcnt/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_gptimer/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_spi/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_ana_cmpr/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_i2s/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_sdmmc/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/sdmmc/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_sdspi/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_sdio/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_dac/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_rmt/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_tsens/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_sdm/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_i2c/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_uart/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/vfs/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_ledc/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_parlio/include -IC:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_usb_serial_jtag/include -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-error=extra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=C:/Espressif/projects_esp_fayyaz/motor_driver=. -fmacro-prefix-map=C:/Espressif/frameworks/esp-idf-v5.4.1=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_driver.c.obj -MF esp-idf\main\CMakeFiles\__idf_main.dir\mcpwm_driver.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_driver.c.obj -c C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c
+In file included from C:/Espressif/frameworks/esp-idf-v5.4.1/components/driver/deprecated/driver/mcpwm.h:12,
+                 from C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.h:15,
+                 from C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:22:
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/driver/deprecated/driver/mcpwm_types_legacy.h:286:3: error: conflicting types for 'mcpwm_carrier_config_t'; have 'struct <anonymous>'
+  286 | } mcpwm_carrier_config_t;
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_prelude.h:15,
+                 from C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:17:
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_oper.h:148:3: note: previous declaration of 'mcpwm_carrier_config_t' with type 'mcpwm_carrier_config_t'
+  148 | } mcpwm_carrier_config_t;
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/driver/deprecated/driver/mcpwm.h:15:2: warning: #warning "legacy MCPWM driver is deprecated, please migrate to the new driver (include driver/mcpwm_prelude.h)" [-Wcpp]
+   15 | #warning "legacy MCPWM driver is deprecated, please migrate to the new driver (include driver/mcpwm_prelude.h)"
+      |  ^~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:29:1: error: unknown type name 'mcpwm_operator_handle_t'; did you mean 'mcpwm_oper_handle_t'?
+   29 | mcpwm_operator_handle_t oper = NULL;
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+      | mcpwm_oper_handle_t
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:29:32: error: initialization of 'int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+   29 | mcpwm_operator_handle_t oper = NULL;
+      |                                ^~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:30:1: error: unknown type name 'mcpwm_generator_handle_t'; did you mean 'mcpwm_generator_config_t'?
+   30 | mcpwm_generator_handle_t gen_fwd = NULL;
+      | ^~~~~~~~~~~~~~~~~~~~~~~~
+      | mcpwm_generator_config_t
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:30:36: error: initialization of 'int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+   30 | mcpwm_generator_handle_t gen_fwd = NULL;
+      |                                    ^~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:31:1: error: unknown type name 'mcpwm_generator_handle_t'; did you mean 'mcpwm_generator_config_t'?
+   31 | mcpwm_generator_handle_t gen_rev = NULL;
+      | ^~~~~~~~~~~~~~~~~~~~~~~~
+      | mcpwm_generator_config_t
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:31:36: error: initialization of 'int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+   31 | mcpwm_generator_handle_t gen_rev = NULL;
+      |                                    ^~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c: In function 'mcpwm_set_duty_cycle':
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:81:56: error: 'comp' undeclared (first use in this function)
+   81 |     esp_err_t ret = mcpwm_comparator_set_compare_value(comp, duty_ticks);
+      |                                                        ^~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:81:56: note: each undeclared identifier is reported only once for each function it appears in
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c: In function 'mcpwm_driver_init':
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:100:6: error: 'mcpwm_timer_config_t' has no member named 'update_period_on_empty'
+  100 |     .update_period_on_empty = true,
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:100:31: warning: initialized field overwritten [-Woverride-init]
+  100 |     .update_period_on_empty = true,
+      |                               ^~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:100:31: note: (near initialization for 'timer_config.intr_priority')
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:101:6: error: 'mcpwm_timer_config_t' has no member named 'update_period_on_sync'
+  101 |     .update_period_on_sync = false
+      |      ^~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:93:37: error: missing braces around initializer [-Werror=missing-braces]
+   93 | mcpwm_timer_config_t timer_config = {
+      |                                     ^
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:125:40: error: passing argument 2 of 'mcpwm_new_operator' from incompatible pointer type [-Wincompatible-pointer-types]
+  125 | ret = mcpwm_new_operator(&oper_config, &oper);
+      |                                        ^~~~~
+      |                                        |
+      |                                        int *
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_oper.h:47:90: note: expected 'struct mcpwm_oper_t **' but argument is of type 'int *'
+   47 | esp_err_t mcpwm_new_operator(const mcpwm_operator_config_t *config, mcpwm_oper_handle_t *ret_oper);
+      |                                                                     ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:132:36: error: passing argument 1 of 'mcpwm_operator_connect_timer' makes pointer from integer without a cast [-Wint-conversion]
+  132 | ret = mcpwm_operator_connect_timer(oper, timer);
+      |                                    ^~~~
+      |                                    |
+      |                                    int
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_oper.h:70:60: note: expected 'mcpwm_oper_handle_t' {aka 'struct mcpwm_oper_t *'} but argument is of type 'int'
+   70 | esp_err_t mcpwm_operator_connect_timer(mcpwm_oper_handle_t oper, mcpwm_timer_handle_t timer);
+      |                                        ~~~~~~~~~~~~~~~~~~~~^~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:141:6: error: 'mcpwm_generator_config_t' has no member named 'invert_pwm'
+  141 |     .invert_pwm = false,
+      |      ^~~~~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:142:6: error: 'mcpwm_generator_config_t' has no member named 'pull_up'
+  142 |     .pull_up = false,
+      |      ^~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:142:16: warning: excess elements in struct initializer
+  142 |     .pull_up = false,
+      |                ^~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:142:16: note: (near initialization for 'gen_config_fwd')
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:143:6: error: 'mcpwm_generator_config_t' has no member named 'pull_down'
+  143 |     .pull_down = false,
+      |      ^~~~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:143:18: warning: excess elements in struct initializer
+  143 |     .pull_down = false,
+      |                  ^~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:143:18: note: (near initialization for 'gen_config_fwd')
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:139:43: error: missing braces around initializer [-Werror=missing-braces]
+  139 | mcpwm_generator_config_t gen_config_fwd = {
+      |                                           ^
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:146:27: error: passing argument 1 of 'mcpwm_new_generator' makes pointer from integer without a cast [-Wint-conversion]
+  146 | ret = mcpwm_new_generator(oper, &gen_config_fwd, &gen_fwd);
+      |                           ^~~~
+      |                           |
+      |                           int
+In file included from C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_prelude.h:17:
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_gen.h:46:51: note: expected 'mcpwm_oper_handle_t' {aka 'struct mcpwm_oper_t *'} but argument is of type 'int'
+   46 | esp_err_t mcpwm_new_generator(mcpwm_oper_handle_t oper, const mcpwm_generator_config_t *config, mcpwm_gen_handle_t *ret_gen);
+      |                               ~~~~~~~~~~~~~~~~~~~~^~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:146:50: error: passing argument 3 of 'mcpwm_new_generator' from incompatible pointer type [-Wincompatible-pointer-types]
+  146 | ret = mcpwm_new_generator(oper, &gen_config_fwd, &gen_fwd);
+      |                                                  ^~~~~~~~
+      |                                                  |
+      |                                                  int *
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_gen.h:46:117: note: expected 'struct mcpwm_gen_t **' but argument is of type 'int *'
+   46 | esp_err_t mcpwm_new_generator(mcpwm_oper_handle_t oper, const mcpwm_generator_config_t *config, mcpwm_gen_handle_t *ret_gen);
+      |                                                                                                 ~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:155:6: error: 'mcpwm_generator_config_t' has no member named 'invert_pwm'
+  155 |     .invert_pwm = false,
+      |      ^~~~~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:156:6: error: 'mcpwm_generator_config_t' has no member named 'pull_up'
+  156 |     .pull_up = false,
+      |      ^~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:156:16: warning: excess elements in struct initializer
+  156 |     .pull_up = false,
+      |                ^~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:156:16: note: (near initialization for 'gen_config_rev')
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:157:6: error: 'mcpwm_generator_config_t' has no member named 'pull_down'
+  157 |     .pull_down = false,
+      |      ^~~~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:157:18: warning: excess elements in struct initializer
+  157 |     .pull_down = false,
+      |                  ^~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:157:18: note: (near initialization for 'gen_config_rev')
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:153:43: error: missing braces around initializer [-Werror=missing-braces]
+  153 | mcpwm_generator_config_t gen_config_rev = {
+      |                                           ^
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:160:27: error: passing argument 1 of 'mcpwm_new_generator' makes pointer from integer without a cast [-Wint-conversion]
+  160 | ret = mcpwm_new_generator(oper, &gen_config_rev, &gen_rev);
+      |                           ^~~~
+      |                           |
+      |                           int
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_gen.h:46:51: note: expected 'mcpwm_oper_handle_t' {aka 'struct mcpwm_oper_t *'} but argument is of type 'int'
+   46 | esp_err_t mcpwm_new_generator(mcpwm_oper_handle_t oper, const mcpwm_generator_config_t *config, mcpwm_gen_handle_t *ret_gen);
+      |                               ~~~~~~~~~~~~~~~~~~~~^~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:160:50: error: passing argument 3 of 'mcpwm_new_generator' from incompatible pointer type [-Wincompatible-pointer-types]
+  160 | ret = mcpwm_new_generator(oper, &gen_config_rev, &gen_rev);
+      |                                                  ^~~~~~~~
+      |                                                  |
+      |                                                  int *
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_gen.h:46:117: note: expected 'struct mcpwm_gen_t **' but argument is of type 'int *'
+   46 | esp_err_t mcpwm_new_generator(mcpwm_oper_handle_t oper, const mcpwm_generator_config_t *config, mcpwm_gen_handle_t *ret_gen);
+      |                                                                                                 ~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:171:28: error: passing argument 1 of 'mcpwm_new_comparator' makes pointer from integer without a cast [-Wint-conversion]
+  171 | ret = mcpwm_new_comparator(oper, &comp_config, &comp_fwd);
+      |                            ^~~~
+      |                            |
+      |                            int
+In file included from C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_prelude.h:16:
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_cmpr.h:44:52: note: expected 'mcpwm_oper_handle_t' {aka 'struct mcpwm_oper_t *'} but argument is of type 'int'
+   44 | esp_err_t mcpwm_new_comparator(mcpwm_oper_handle_t oper, const mcpwm_comparator_config_t *config, mcpwm_cmpr_handle_t *ret_cmpr);
+      |                                ~~~~~~~~~~~~~~~~~~~~^~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:177:28: error: passing argument 1 of 'mcpwm_new_comparator' makes pointer from integer without a cast [-Wint-conversion]
+  177 | ret = mcpwm_new_comparator(oper, &comp_config, &comp_rev);
+      |                            ^~~~
+      |                            |
+      |                            int
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_cmpr.h:44:52: note: expected 'mcpwm_oper_handle_t' {aka 'struct mcpwm_oper_t *'} but argument is of type 'int'
+   44 | esp_err_t mcpwm_new_comparator(mcpwm_oper_handle_t oper, const mcpwm_comparator_config_t *config, mcpwm_cmpr_handle_t *ret_cmpr);
+      |                                ~~~~~~~~~~~~~~~~~~~~^~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:187:7: error: 'MCPWM_GEN_TIMER_EVENT_ACTION_END' undeclared (first use in this function)
+  187 |       MCPWM_GEN_TIMER_EVENT_ACTION_END);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:185:49: error: passing argument 1 of 'mcpwm_generator_set_action_on_timer_event' makes pointer from integer without a cast [-Wint-conversion]
+  185 | ret = mcpwm_generator_set_action_on_timer_event(gen_fwd,
+      |                                                 ^~~~~~~
+      |                                                 |
+      |                                                 int
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_gen.h:105:72: note: expected 'mcpwm_gen_handle_t' {aka 'struct mcpwm_gen_t *'} but argument is of type 'int'
+  105 | esp_err_t mcpwm_generator_set_action_on_timer_event(mcpwm_gen_handle_t gen, mcpwm_gen_timer_event_action_t ev_act);
+      |                                                     ~~~~~~~~~~~~~~~~~~~^~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:185:7: error: too many arguments to function 'mcpwm_generator_set_action_on_timer_event'
+  185 | ret = mcpwm_generator_set_action_on_timer_event(gen_fwd,
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_gen.h:105:11: note: declared here
+  105 | esp_err_t mcpwm_generator_set_action_on_timer_event(mcpwm_gen_handle_t gen, mcpwm_gen_timer_event_action_t ev_act);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:195:7: error: 'MCPWM_GEN_COMPARE_EVENT_ACTION_END' undeclared (first use in this function)
+  195 |       MCPWM_GEN_COMPARE_EVENT_ACTION_END);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:193:51: error: passing argument 1 of 'mcpwm_generator_set_action_on_compare_event' makes pointer from integer without a cast [-Wint-conversion]
+  193 | ret = mcpwm_generator_set_action_on_compare_event(gen_fwd,
+      |                                                   ^~~~~~~
+      |                                                   |
+      |                                                   int
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_gen.h:149:74: note: expected 'mcpwm_gen_handle_t' {aka 'struct mcpwm_gen_t *'} but argument is of type 'int'
+  149 | esp_err_t mcpwm_generator_set_action_on_compare_event(mcpwm_gen_handle_t generator, mcpwm_gen_compare_event_action_t ev_act);
+      |                                                       ~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:193:7: error: too many arguments to function 'mcpwm_generator_set_action_on_compare_event'
+  193 | ret = mcpwm_generator_set_action_on_compare_event(gen_fwd,
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_gen.h:149:11: note: declared here
+  149 | esp_err_t mcpwm_generator_set_action_on_compare_event(mcpwm_gen_handle_t generator, mcpwm_gen_compare_event_action_t ev_act);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:204:49: error: passing argument 1 of 'mcpwm_generator_set_action_on_timer_event' makes pointer from integer without a cast [-Wint-conversion]
+  204 | ret = mcpwm_generator_set_action_on_timer_event(gen_rev,
+      |                                                 ^~~~~~~
+      |                                                 |
+      |                                                 int
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_gen.h:105:72: note: expected 'mcpwm_gen_handle_t' {aka 'struct mcpwm_gen_t *'} but argument is of type 'int'
+  105 | esp_err_t mcpwm_generator_set_action_on_timer_event(mcpwm_gen_handle_t gen, mcpwm_gen_timer_event_action_t ev_act);
+      |                                                     ~~~~~~~~~~~~~~~~~~~^~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:204:7: error: too many arguments to function 'mcpwm_generator_set_action_on_timer_event'
+  204 | ret = mcpwm_generator_set_action_on_timer_event(gen_rev,
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_gen.h:105:11: note: declared here
+  105 | esp_err_t mcpwm_generator_set_action_on_timer_event(mcpwm_gen_handle_t gen, mcpwm_gen_timer_event_action_t ev_act);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:212:51: error: passing argument 1 of 'mcpwm_generator_set_action_on_compare_event' makes pointer from integer without a cast [-Wint-conversion]
+  212 | ret = mcpwm_generator_set_action_on_compare_event(gen_rev,
+      |                                                   ^~~~~~~
+      |                                                   |
+      |                                                   int
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_gen.h:149:74: note: expected 'mcpwm_gen_handle_t' {aka 'struct mcpwm_gen_t *'} but argument is of type 'int'
+  149 | esp_err_t mcpwm_generator_set_action_on_compare_event(mcpwm_gen_handle_t generator, mcpwm_gen_compare_event_action_t ev_act);
+      |                                                       ~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:212:7: error: too many arguments to function 'mcpwm_generator_set_action_on_compare_event'
+  212 | ret = mcpwm_generator_set_action_on_compare_event(gen_rev,
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_driver_mcpwm/include/driver/mcpwm_gen.h:149:11: note: declared here
+  149 | esp_err_t mcpwm_generator_set_action_on_compare_event(mcpwm_gen_handle_t generator, mcpwm_gen_compare_event_action_t ev_act);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/projects_esp_fayyaz/motor_driver/main/mcpwm_driver.c:223:10: warning: unused variable 'duty_ticks' [-Wunused-variable]
+  223 | uint32_t duty_ticks = (uint32_t)((duty_cycle/100.0f)*period);
+      |          ^~~~~~~~~~
+cc1.exe: some warnings being treated as errors
+[3/12] Performing build step for 'bootloader'
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file C:/Espressif/projects_esp_fayyaz/motor_driver/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4.1/components/soc/esp32/ld/esp32.peripherals.ld
+-- Bootloader project name: "bootloader" version: 1
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4.1/components/bootloader/subproject/main/ld/esp32/bootloader.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4.1/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_bootloader_format esp_common esp_hw_support esp_rom esp_security esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: C:/Espressif/frameworks/esp-idf-v5.4.1/components/bootloader C:/Espressif/frameworks/esp-idf-v5.4.1/components/bootloader_support C:/Espressif/frameworks/esp-idf-v5.4.1/components/efuse C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_app_format C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_bootloader_format C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_common C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_hw_support C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_rom C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_security C:/Espressif/frameworks/esp-idf-v5.4.1/components/esp_system C:/Espressif/frameworks/esp-idf-v5.4.1/components/esptool_py C:/Espressif/frameworks/esp-idf-v5.4.1/components/freertos C:/Espressif/frameworks/esp-idf-v5.4.1/components/hal C:/Espressif/frameworks/esp-idf-v5.4.1/components/log C:/Espressif/frameworks/esp-idf-v5.4.1/components/bootloader/subproject/main C:/Espressif/frameworks/esp-idf-v5.4.1/components/bootloader/subproject/components/micro-ecc C:/Espressif/frameworks/esp-idf-v5.4.1/components/newlib C:/Espressif/frameworks/esp-idf-v5.4.1/components/partition_table C:/Espressif/frameworks/esp-idf-v5.4.1/components/soc C:/Espressif/frameworks/esp-idf-v5.4.1/components/spi_flash C:/Espressif/frameworks/esp-idf-v5.4.1/components/xtensa
+-- Configuring done (16.1s)
+-- Generating done (0.8s)
+-- Build files have been written to: C:/Espressif/projects_esp_fayyaz/motor_driver/build/bootloader
+[1/2] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Espressif\projects_esp_fayyaz\motor_driver\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.4.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Espressif/projects_esp_fayyaz/motor_driver/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6580 bytes. 0xa80 bytes (9%) free.
+ninja: build stopped: subcommand failed.

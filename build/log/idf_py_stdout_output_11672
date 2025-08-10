@@ -1,0 +1,92 @@
+ts Jun  8���      : DIO
+[0;32mI (42) boot.esp32:�ets Jun  8 2016 00:22:57[0m
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug  1 2025 19:33:38[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v1.0[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (42) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (50) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a704h ( 42756) map[0m
+[0;32mI (104) esp_image: segment 1: paddr=0001a72c vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (104) esp_image: segment 2: paddr=0001a750 vaddr=3ffb0000 size=022f4h (  8948) load[0m
+[0;32mI (111) esp_image: segment 3: paddr=0001ca4c vaddr=40080000 size=035cch ( 13772) load[0m
+[0;32mI (121) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=15fdch ( 90076) map[0m
+[0;32mI (154) esp_image: segment 5: paddr=00036004 vaddr=400835cc size=0974ch ( 38732) load[0m
+[0;32mI (175) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (175) boot: Disabling RNG early entropy source...[0m
+[0;32mI (186) cpu_start: Multicore app[0m
+[0;32mI (194) cpu_start: Pro cpu start user code[0m
+[0;32mI (194) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (194) app_init: Application information:[0m
+[0;32mI (194) app_init: Project name:     motor_driver[0m
+[0;32mI (199) app_init: App version:      1[0m
+[0;32mI (202) app_init: Compile time:     Aug  1 2025 19:17:26[0m
+[0;32mI (207) app_init: ELF file SHA256:  e998a4f7d...[0m
+[0;32mI (211) app_init: ESP-IDF:          v5.4.1[0m
+[0;32mI (215) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (219) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (223) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (227) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (233) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (238) heap_init: At 3FFB2C00 len 0002D400 (181 KiB): DRAM[0m
+[0;32mI (243) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (249) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (254) heap_init: At 4008CD18 len 000132E8 (76 KiB): IRAM[0m
+[0;32mI (261) spi_flash: detected chip: generic[0m
+[0;32mI (263) spi_flash: flash io: dio[0m
+[0;33mW (266) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (279) main_task: Started on CPU0[0m
+[0;32mI (289) main_task: Calling app_main()[0m
+[0;32mI (289) MCPWM: FORWARD[0m
+[0;32mI (1289) MCPWM: STOP[0m
+[0;32mI (2289) MCPWM: REVERSE[0m
+[0;32mI (3389) MCPWM: FORWARD[0m
+[0;32mI (4389) MCPWM: STOP[0m
+[0;32mI (5389) MCPWM: REVERSE[0m
+[0;32mI (6489) MCPWM: FORWARD[0m
+[0;32mI (7489) MCPWM: STOP[0m
+[0;32mI (8489) MCPWM: REVERSE[0m
+[0;32mI (9589) MCPWM: FORWARD[0m
+[0;32mI (10589) MCPWM: STOP[0m
+[0;32mI (11589) MCPWM: REVERSE[0m
+[0;32mI (12689) MCPWM: FORWARD[0m
+[0;32mI (13689) MCPWM: STOP[0m
+[0;32mI (14689) MCPWM: REVERSE[0m
+[0;32mI (15789) MCPWM: FORWARD[0m
+[0;32mI (16789) MCPWM: STOP[0m
+[0;32mI (17789) MCPWM: REVERSE[0m
+[0;32mI (18889) MCPWM: FORWARD[0m
+[0;32mI (19889) MCPWM: STOP[0m
+[0;32mI (20889) MCPWM: REVERSE[0m
+[0;32mI (21989) MCPWM: FORWARD[0m
+[0;32mI (22989) MCPWM: STOP[0m
+[0;32mI (23989) MCPWM: REVERSE[0m
+[0;32mI (25089) MCPWM: FORWARD[0m
+[0;32mI (26089) MCPWM: STOP[0m
+[0;32mI (27089) MCPWM: REVERSE[0m
+[0;32mI (28189) MCPWM: FORWARD[0m
+[0;32mI (29189) MCPWM: STOP[0m
+[0;32mI (30189) MCPWM: REVERSE[0m
+[0;32mI (31289) MCPWM: FORWARD[0m
+[0;32mI (32289) MCPWM: STOP[0m
+[0;32mI (33289) MCPWM: REVERSE[0m
+[0;32mI (34389) MCPWM: FORWARD[0m
