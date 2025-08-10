@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # ESP32 Dual Motor Control using MCPWM Driver
 
 This project demonstrates controlling two DC motors independently using ESP32's new MCPWM driver in ESP-IDF. Each motor has its own modular driver files (`driver.c` and `driver.h`) for easy integration and maintenance.
